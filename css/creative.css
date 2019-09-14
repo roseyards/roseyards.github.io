@@ -10571,6 +10571,10 @@ html {
   color: rgba(255, 255, 255, 0.75);
 }
 
+.text-white-75 a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
 hr.divider {
   max-width: 30%;
   border-width: 0.2rem;
@@ -10595,7 +10599,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 5rem 0;
 }
 
 #mainNav {
@@ -10701,6 +10705,6 @@ header.masthead h1 {
 
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 }
