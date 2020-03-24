@@ -10,23 +10,29 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
   h1 {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
   }
+  p {
+    font-size: 0.8rem;
+  }
+
+  @include media-breakpoint-up(md) {
+
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1.15rem;
+    }
+  }
+
   @include media-breakpoint-up(lg) {
 
     min-height: 40rem;
     padding-top: $navbar-height;
     padding-bottom: 0;
-    p {
-      font-size: 1.15rem;
-    }
     h1 {
       font-size: 3rem;
-    }
-  }
-  @include media-breakpoint-up(xl) {
-    h1 {
-      font-size: 2.5rem;
     }
   }
 }
