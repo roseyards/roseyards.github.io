@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Roseyards Presbyterian Church v1.0.0 (https://roseyards.github.io)
- * Copyright 2013-2020 Start Bootstrap
+ * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/roseyards/blob/master/LICENSE)
  */
 
